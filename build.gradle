@@ -29,6 +29,7 @@ test {
 }
 
 // required so we can check parameter names in autograding tests
+// Testing.
 compileTestJava {
 	options.compilerArgs=["-parameters"]
 }
